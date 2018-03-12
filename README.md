@@ -44,18 +44,14 @@ $ rm -rf build/libs/war-index-jsp/
 $ rm -f build/libs/war-index-jsp.war_deployed
 ```
 
-gibt die Fehlermeldung
+yields the following error message:
 ```
 HTTP Status 500 - Internal Server Error
 
 type Exception report
-
 messageInternal Server Error
-
 descriptionThe server encountered an internal error that prevented it from fulfilling this request.
-
 exception
-
 org.apache.jasper.JasperException: PWC6345: There is an error in invoking javac.  A full JDK (not just JRE) is required
 
 note The full stack traces of the exception and its root causes are available in the GlassFish Server Open Source Edition 5.0 logs.
